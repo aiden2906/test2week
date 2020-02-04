@@ -1,0 +1,48 @@
+
+
+html, body{
+    font-family: cursive;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: teal;
+}
+.container{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    text-align: center;
+}
+button{
+    font-family: cursive;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.play-frame-container{
+    width: 600px;
+    height: 600px;
+}
+
+
+td{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+

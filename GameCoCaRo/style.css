@@ -1,0 +1,100 @@
+ @font-face{
+    font-family: 'myfont';
+    src: url(comic.ttf);
+}
+
+html,body{
+    width: 100%;
+    font-family: 'myfont';
+    margin: 0;
+    box-sizing: border-box;
+    background: #ffc600;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    background: brown;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.table-game table{
+    background: #ffc600;
+    margin: 50px auto;
+}
+label,input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+input[type=text]{
+    padding-left: 10px;
+    font-family: 'myfont';
+}
+input{
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; 
+}
+input[type=submit]{
+    height: 30px;
+    font-family: 'myfont';
+    background: #ffc600;
+}
+input[type=submit]:hover{
+    background: white;
+} 
+
+.table-game table,td,tr{
+
+    box-sizing: border-box;
+}
+.table-game td{
+    background: white;
+    width: 0px;
+    height: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container-elem{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    margin-left: 60px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+.table-game{
+    flex-basis: 80%;
+}
+.wrap-reset-btn{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 224, 116, 0.4);
+    visibility: hidden;
+    flex-direction: column;
+}

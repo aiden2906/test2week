@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    position: relative;
+    font-family: cursive;
+}
+.controller{
+    padding-left: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    background-color: #ffc600;
+    border: 2px solid black;
+}
+
+.wrap{
+    width: 100%;
+}
+table{
+    background-color: white;
+    margin: auto;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.wrap-header{
+    margin-top: 49px;
+}
+th,td{
+    text-align: center;
+}
+th{
+    background-color: #ffc600;
+}
+tr:nth-child(even){
+    background: #FEEBD0;
+}
+input{
+    font-family: cursive;
+    width: 22%;
+}
